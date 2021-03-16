@@ -9,6 +9,21 @@ body{
 
 .jumbotron{
     background: url(/IMG/StarWarsGuys.jpg);
+
 }
 
- 
+
+
+/* SM */
+@media (max-width: 570px) {
+    .wrapper {
+        width: 100% !important;
+    }
+}
+
+/* MD */
+@media (min-width: 571px) and (max-width: 991.98px) {
+    .wrapper {
+        width: 85% !important;
+    }
+}git 
